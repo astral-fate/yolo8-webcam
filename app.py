@@ -11,8 +11,8 @@ app = Flask(__name__)
 
 # Load YOLO model
 yolo_dir = "yolo/"
-weights_path = os.path.join(yolo_dir, "yolov2.weights")
-config_path = os.path.join(yolo_dir, "yolov2.cfg")
+weights_path = os.path.join(yolo_dir, "yolov3.weights")
+config_path = os.path.join(yolo_dir, "yolov3.cfg")
 names_path = os.path.join(yolo_dir, "coco.names")
 
 # Load YOLO
